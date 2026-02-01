@@ -1,0 +1,65 @@
+# MentiConn.ai 🚀
+
+**Sync with the Hive Mind. Peps > Solo.**
+
+MentiConn.ai is a comprehensive ecosystem designed to bridge the "Guidance Gap" for engineering students and early-career developers. It creates a hybrid feedback loop by combining instant AI technical mentorship with a human network of seniors and peers.
+
+![MentiConn Dashboard Screenshot](https://via.placeholder.com/1000x500?text=MentiConn+Dashboard+Preview)
+*(Note: Replace the link above with an actual screenshot of your dashboard)*
+
+## 🧐 The Problem
+Millions of students graduate every year, but many lack "industry-readiness." They face:
+* **The Guidance Void:** Seniors are busy, and professors are academic-focused.
+* **Generic Advice:** YouTube roadmaps are one-size-fits-all.
+* **Isolation:** Tier-2/3 college students often lack a network of like-minded builders.
+
+## 💡 The Solution
+MentiConn is not just an AI wrapper; it is a growth ecosystem that offers:
+1.  **Nexus AI Mentor:** Instant feedback on code, resume reviews, and mock interviews using advanced LLMs.
+2.  **Project Marketplace:** A space to buy and sell high-quality, verified codebases (Learn + Earn).
+3.  **Smart Connections:** Filter and find peers by Role (SDE/Data) or College to build projects together.
+4.  **Real Mentorship:** Book 1:1 sessions with verified industry professionals.
+
+## 🛠️ Technology Stack
+We built MentiConn using a lightweight, high-performance stack:
+
+* **Frontend:** HTML5, Modern JavaScript (ES6+)
+* **Styling:** TailwindCSS (for the responsive, Glassmorphism UI)
+* **AI Integration:** FastRouter API (Orchestrating OpenAI GPT-4o & Anthropic Claude 3.5)
+* **Libraries:**
+    * `SweetAlert2` (For beautiful, interactive modals)
+    * `Marked.js` (For rendering Markdown in AI chat)
+    * `FontAwesome` (For iconography)
+* **Deployment:** Hosted on Vercel
+
+## 🎥 Product Demo
+Check out the live prototype in action:
+
+**[🔗 View Live Demo Here](https://menticonn-4a6kcbmhj-kaka-chi-champas-projects.vercel.app/)**
+
+### Key Features Demoed:
+* **AI Mock Interviewer:** Switch between "Friendly Mentor" and "Strict Interviewer" modes.
+* **Advanced Repo Upload:** Dynamic modal handling file uploads with fee calculation logic.
+* **Real-time Feed:** Social feed with support for images, polls, and videos.
+* **Instant Connections:** One-click connection system with filtering logic.
+
+## 🚀 How to Run Locally
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Viu1703/menticonn-ai.git](https://github.com/Viu1703/menticonn-ai.git)
+    ```
+2.  **Navigate to the project folder:**
+    ```bash
+    cd menticonn-ai
+    ```
+3.  **Launch:**
+    Simply open `index.html` in your browser.
+    *Note: For the best experience, use a local server like Live Server in VS Code to avoid CORS issues.*
+
+## 🔮 Future Roadmap
+* [ ] Integration of Razorpay/Stripe for real payments.
+* [ ] Backend migration to Supabase/Firebase for persistent user data.
+* [ ] Campus Ambassador program launch.
+
+---
